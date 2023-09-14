@@ -1,13 +1,10 @@
-<p align=center><img src=https://d31uz8lwfmyn8g.cloudfront.net/Assets/logo-henry-white-lg.png><p>
+<p align=center ><img src=https://d31uz8lwfmyn8g.cloudfront.net/Assets/logo-henry-white-lg.png><p>
 
 # <h1 align=center> **`PROYECTO FINAL GRUPO Nº 7`** </h1>
 
 <h1 align="center">
   <span style="font-size: 25px;">@utores:  Javier Castro, Luca Ramallo, Luis Ramirez, Lesmen Garcia.</span> <br>
-  <a href="https://github.com/lesmengp/ProyectoCriptomoneda.git">GitHub: <span style="font-size: 20px;">GithubDelProyecto</span></a> <br>
-
-  <a href="https://drive.google.com/drive/folders/1FCLUNAPYEfi854cBu4PZ1FGXKuy0KZAj?usp=sharing">Drive: <span style="font-size: 20px;">https://drive.google.com/drive/Proyecto</span></a> <br>
- 
+  <a href="https://github.com/lesmengp/Proyecto-Final-Grupo-07.git">GitHub: <span style="font-size: 20px;">Proyecto Yelp & Google Maps</span></a> <br> 
 </h1>
 
 # <h1 align=center>**`YELP & GOOGLE MAPS - REVIEWS AND RECOMMENDATIONS`**</h1>
@@ -41,25 +38,27 @@
     - Relevancia de las reseñas.
     - Análisis de sentimientos.
  
-### Estructura del Directorio de Trabajo:
-+    En el directorio se hancreado 6 carpetas que contienen los siguientes archivos:
-- src: 
-    - En esta carpeta, se encuentran dos directorios, donde se guardan las imagenes y gráficos, que se encuentran en el archivo README.
-        1. src/Imagenes: Contiene todas las imagenes utilzadas.
-        2. src/Graficas: Contiene algunos gráficos de información relevantes del Proyecto. 
-- DataSets: 
-    - En esta carpeta se encuentran las carpetas con sus respectivos archivos CSV (incluir otros faltantes) seleccionados para el Análisis de Datos. Dichos archivos serán cargados desde el EDA, para sus respectivos análisis.
-        1. DataSets/GoogleMaps: Contiene los archivos de datos de Google Maps.
-        2. DataSets/Yelp: Contiene los archivos de datos de Yelp.
-        3. DataSets/Otros1: Contiene los archivos de datos de Otros1.  
-- ETL: 
-    - En esta carpeta se encuentra el archivo Notebook con la Extracción, Transformación y Carga (ETL)
-- EDA: 
-    - En esta carpeta se encuentra el archivo Notebook con el Análisis Exploratorios de los Datos (EDA).
-- README: 
-    - En esta carpeta se encuentra el archivo README donde se detalla todo lo realizado en el presente Proyecto.
-- Requirements: 
-    - En esta carpeta se encuentra un archivo llamado 'requirements.txt', con las librerias utilizadas y sus correspondientes versiones.
+### Estructura del Directorio de Trabajo:<br>
+El directorio de trabajo del proyecto contiene las siguientes 5 carpetas:<br>
+1. DataSet:<br> 
+    En este directorio se encuentran las carpetas de datos seleccionados para el análisis del proyecto:
+    1. DataSet/GoogleMaps: Contiene los archivos de datos de Google Maps.<br>
+    2. DataSet/Yelp: Contiene los archivos de datos de Yelp.<br>
+    3. DataSet/Otros1: Contiene los archivos de datos de Otros1.  
+
+2. EDA:<br> 
+        En esta carpeta se encuentra el archivo Notebook con el Análisis Exploratorios de los Datos (EDA).
+
+3. ETL: 
+        En esta carpeta se encuentra el archivo Notebook con la Extracción, Transformación y Carga (ETL)
+
+4. Requirements: 
+        En esta carpeta se encuentra un archivo llamado 'requirements.txt', con las librerias utilizadas y sus correspondientes versiones.
+
+5. src: 
+        En esta carpeta, se encuentran dos directorios, donde se guardan las imagenes y gráficos, que se encuentran en el archivo README.
+    1. src/Imagenes: Contiene todas las imagenes utilzadas.
+    2. src/Graficas: Contiene algunos gráficos de información relevantes del Proyecto.
 
 ### Versiones de las librerias utilizadas<Br>
 +   pandas==1.3.5<Br>
