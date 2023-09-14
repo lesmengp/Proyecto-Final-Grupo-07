@@ -17,6 +17,8 @@
 -  Realizar un análisis de la información de reseñas entre las plataformas de Yelp y Google Maps en los últimos 5 años, para identificar oportunidades de inversión.
 
 ### Objetivo Específicos:<Br>
+
+
 1. Seleccionar las oportunidades de inversión de las reseñas de informacion que se encuentren correlacionadas entre ambas plataformas.
 2. Determinar la satisfacción, percepción y tendencia de los clientes de acuerdo a las reseñas realizadas. 
 3. Evaluar la popularidad y crecimiento de los diferentes tipos de negocios de acuerdo al historial de reseñas.
