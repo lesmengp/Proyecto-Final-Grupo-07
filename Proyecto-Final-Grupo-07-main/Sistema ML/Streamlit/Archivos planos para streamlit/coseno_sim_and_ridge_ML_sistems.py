@@ -7,7 +7,7 @@ from sklearn.metrics import mean_squared_error, mean_absolute_error, r2_score, e
 import matplotlib.pyplot as plt
 from sklearn.linear_model import Ridge
 
-
+### Lectura dataset:
 prom_final_y_one_hot = pd.read_parquet('gs://gmy/Datasets_ML/ML_Luca/prom_final_y_one_hot.parquet')
 #prom_final_y_one_hot = pd.read_parquet('./prom_final_y_one_hot.parquet')
 
