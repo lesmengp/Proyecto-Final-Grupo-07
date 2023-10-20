@@ -3,7 +3,7 @@
 # <h1 align=center> **`PROYECTO FINAL GRUPO Nº 7`** </h1>
 
 <h1 align="center">
-  <span style="font-size: 25px;">@utores:  Javier Castro, Luca Ramallo, Luis Ramirez, Lesmen Garcia.</span> <br>
+  <span style="font-size: 24px;">@utores:Javier Castro, Luca Ramallo, Luis Ramirez, Lesmen Garcia.</span> <br>
   <a href="https://github.com/lesmengp/Proyecto-Final-Grupo-07.git">GitHub: <span style="font-size: 20px;">Proyecto Yelp & Google Maps</span></a> <br> 
 </h1>
 
@@ -47,6 +47,8 @@
 <p align="center">
 <img src="src/Imagenes/EuipoDS.png", height=300>
 </p>
+
+### <h1 align=center>*`Somo las sexta estrella para nuestros clientes...!!!`*</h1>
 
 ### GitHub / Email / Linkedin:
 - [Javier Castro](https://github.com/jachcastro), Data Engineer / [Email](jachcastro@gmail.com) / [Linkdin](https://linkedin.com/in/javier-castro-hermoza-1a581032)
