@@ -3,7 +3,7 @@
 # <h1 align=center> **`PROYECTO FINAL GRUPO Nº 7`** </h1>
 
 <h1 align="center">
-  <span style="font-size: 20px;">@utores:Javier Castro, Luca Ramallo, Luis Ramirez, Lesmen Garcia.</span> <br>
+  <span style="font-size: 20px;">@utores:Javier Castro, Luca Ramallo, Luis Ramírez, Lesmen García.</span> <br>
   <a href="https://github.com/lesmengp/Proyecto-Final-Grupo-07.git">GitHub: <span style="font-size: 20px;">Proyecto Yelp & Google Maps</span></a> <br> 
 </h1>
 
