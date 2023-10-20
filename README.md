@@ -28,7 +28,7 @@
 - [Propuesta Tecnológica](#Propuesta-T)
 - [Cronograma de Actividades](#CronogramaA)
 - [Automatización](#Automatizacion)
-- [Modelo Machine Learning](#Modelo-ML)
+- [Arquitectura Machine Learning](#Arquitectura-ML)
 - [Estructura del Directorio de Trabajo](#Estructura)
 - [Fuente de Datos](#Fuente-Datos)
 
@@ -42,7 +42,7 @@
 
 <div id="Consultores-Data-Science"/>
 
-### **Consultorores:**
+### **Consultores Data Science:**
 
 <p align="center">
 <img src="src/Imagenes/EuipoDS.png", height=300>
@@ -145,9 +145,9 @@
 
 
 
-<div id="Modelo-ML"/>
+<div id="Arquitectura-ML"/>
 
-# Modelo Machine Learning
+# Arquitectura Machine Learning
 
 <p align="center">
 <img src="src/Imagenes/ML.png", height=300>
