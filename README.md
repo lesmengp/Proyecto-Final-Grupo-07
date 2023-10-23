@@ -13,120 +13,34 @@
 <img src="src/Imagenes/Img01.png", height=300>
 </p>
 
-### Objetivo General:<Br>
--  Realizar un análisis de la información de reseñas entre las plataformas de Yelp y Google Maps en los últimos 5 años, para identificar oportunidades de inversión.
-
-### Objetivo Específicos:<Br>
+## ML:<Br>
+-  En esta seccion encontraremos la aplicacion de sistemas de IA & ML para el proyecto JL3.<Br>
 
 
-1. Seleccionar las oportunidades de inversión de las reseñas de informacion que se encuentren correlacionadas entre ambas plataformas.
-2. Determinar la satisfacción, percepción y tendencia de los clientes de acuerdo a las reseñas realizadas. 
-3. Evaluar la popularidad y crecimiento de los diferentes tipos de negocios de acuerdo al historial de reseñas.
-4. Determinar competencias entre negocios del mismo ramo, por ubicación greográfica.
-5. Evaluar y clasificar la calidad del servicio al cliente ofrecido por cada tipo de negocio.
-6. Determinar el rendimiento financiero por negocio en el periodo de tiempo establecido.
+## Cosine Similarity:<Br>
+
+- Contiene la aplicacion, 1ro de un Cosine Similarity, cuyo objetivo es: encontrar 10 negocios similares ya establecidos, a partir del estudio de las caracteristicas de  un negocio / establecimiento, seleccionado como semilla y perteneciente al set de datos (por ser esta una version M.V.P) donde se toman más de 200 parámetros a setear en caracteristicas. <Br>
+<Br>
+
+Es decir, ¿A donde apuntamos con esto?..<Br>
+
+Al aplicar Cosine Similarity, en base a mas de 200 parametros, buscando entre todos los negocios ya existentes en las plataformams de Google Maps y Google Yelp, Lo que buscamos es que el usuario pueda verificar: si la idea de negocio de quien consulta el sistema, ya existe en el mercado, en otras palabras si ya se encuentra registrada en las plataformas y en caso de que no exista, poder revisar las 10 primeras ideas de negocio ya existentes que más se asemejen a esta configuracion particular de parametros que pose el negocio semilla que le estamos preguntando al algoritmo.<Br>
+De esta manera, Podriamos: SIN tener la necesidad de invertir realmente en emplazar realmente una idea de negocio, analizar nuestra competencia más próxima, ver si existen opciones similares ya en el mercado y poder responder a la pregunta: ¿Cómo le esta yendo con dicha idea de negocio?<Br>
 
 
-### Alcance del Objetivo:
-1. Horizonte de Análisis:<Br> 
-    - El horizonte de análisis estará enfocado en las oportunidades de inversión de consumo masivo, de acuerdo a las reseñas de información realizadas en los últimos 5 años.
-2. Seleccionar las Métricas y KPIs:
-    - Número total de reseñas entre ambas plataformas.
-    - Calificación promedio de reseñas. 
-    - Volumen de reseñas positivas y negativas.
-    - Tendencia de calificación.
-    - Número de reseñas por tipo de negocio.
-    - Palabras claves más mencionadas.
-    - Relevancia de las reseñas.
-    - Análisis de sentimientos.
- 
-### Estructura del Directorio de Trabajo:<br>
-El directorio de trabajo del proyecto contiene las siguientes 5 carpetas:<br>
-1. DataSet:<br> 
-    En este directorio se encuentran las carpetas de datos seleccionados para el análisis del proyecto:
-    1. DataSet/GoogleMaps: Contiene los archivos de datos de Google Maps.<br>
-    2. DataSet/Yelp: Contiene los archivos de datos de Yelp.<br>
-    3. DataSet/Otros1: Contiene los archivos de datos de Otros1.  
+## Regresion Ridge:<Br>
 
-2. EDA:<br> 
-        En esta carpeta se encuentra el archivo Notebook con el Análisis Exploratorios de los Datos (EDA).
+- Tambien, por ser version M.V.P. contamos con un modelo Ridge a partir de una semilla establecida perteneciente al set de datos para su prueba. El Objetivo de la regresion aqui planteada es: en base a los parametros de la semilla, calcular la respuesta a una metrica muy importante establecida para el desarrollo de este proyecto... EL VOLÚMEN DE ESTRELLAS ✨.<Br>
 
-3. ETL: 
-        En esta carpeta se encuentra el archivo Notebook con la Extracción, Transformación y Carga (ETL)
-
-4. Requirements: 
-        En esta carpeta se encuentra un archivo llamado 'requirements.txt', con las librerias utilizadas y sus correspondientes versiones.
-
-5. src: 
-        En esta carpeta, se encuentran dos directorios, donde se guardan las imagenes y gráficos, que se encuentran en el archivo README.
-    1. src/Imagenes: Contiene todas las imagenes utilzadas.
-    2. src/Graficas: Contiene algunos gráficos de información relevantes del Proyecto.
-
-### Versiones de las librerias utilizadas<Br>
-+   pandas==1.3.5<Br>
-+   numpy==1.24.3<Br>
-+   pip==23.2.1<Br>
-+   scikit-learn==1.0.2<Br>
-+   regex==2023.5.5<Br>
-+   matplotlib==3.7.1<Br>
-+   seaborn=0.12.2<Br>
-+   requests==2.31.0<Br>
-
-# Inicio del Proyecto!!!
-
-# Índice
-1. [Extracción Transformación y Carga (ETL)](#sección-1)
-2. [Analisis Exploratorios de los Datos (EDA)](#sección-2)
-3. [KPIs](#sección-3)
-4. [Conclusiones](#sección-4)
-5. [Dashboard](#sección-5)
-6. [Diccionario de Términos](#sección-6)
+Ridge, en base a los parametros, podra pronosticar el volumen de estrellas que recaudará nuestra idea de negocio (aún no emplazada en la realidaad) y poder tener asi, una muy buena idea de como nos va a ir con dicha inversion si realmente la llevamos a cabo....<Br>
 
 
-## Sección 1
-## 1. Extracción Transformación y Carga (ETL)
+Ambos modelos estan pensados para fucnionar con nuevas ideas de negocio, que no existan dentro del set de datos y poder reducir la incertidumbre de quienes tienen pensado llevarlas a cabo, en base a: un analisis de la competencia ya existente y un pronostico de como le irá particularmente a dicha idea con el volumen de estrellas..<Br>
 
-### Fuente de datos
-+ [DataSet de Google Maps !!!](https://drive.google.com/drive/folders/1Wf7YkxA0aHI3GpoHc9Nh8_scf5BbD4DA):  Google Drive Henry.
+Cabe mensionar, que podriamos ir re ajustando los parametros de nuestro negocio y repreguntar a los algoritmos, para ver si mejora nuestro pronostico o no. Siguiendo un ejemplo simple, supongamos que si a mi negocio le agrego Servicio de Wifi... tendre mas clientes? y si agrego tambien Bike Parking ? asi susecivamente cuantas veces querramos...<Br>
 
-+ [DataSet de Yelp !!!](https://drive.google.com/drive/folders/1TI-SsMnZsNP6t930olEEWbBQdo_yuIZF):  Google Drive Henry..
-
-### 1.1. Selección de las Categorias.
+Demo Streamlit:
+En la seccion inversionistas:
+https://pfmljl3.streamlit.app/
 
 
-### 1.2. Carga de Datos.
-
-
-## Sección 2
-## 2. Analisis Exploratorios de los Datos (EDA).
-
-### 2.1. Procesamiento de Datos.
-
-### 2.1.1. Análisis de Valores Faltantes.
-
-
-### 2.1.2. Análisis de Valores Outliers.
-
-
-### 2.1.3. Análisis de Correlaciones.
-
-
-### 2.1.4. Análisis de Tendencias Temporales.
-
-
-## Sección 3
-### 3. Cálculos de los Indicadores Claves de Rendimiento (KPIs).
-
-
-## Sección 4
-## 4. Conclusiones
-
-## Sección 5
-## 5. DashBoard
-+   Se presentará directamente en Power BI.   
-
-## Sección 6
-## 6. Diccionario de Términos
-
-
-# Fin del Proyecto!!!
