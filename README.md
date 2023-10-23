@@ -14,12 +14,11 @@
 </p>
 
 ## ML:<Br>
--  En esta seccion encontraremos la aplicacion de sistemas de IA & ML para el proyecto JL3.<Br>
+En esta seccion encontraremos la aplicacion de sistemas de IA & ML para el proyecto JL3.<Br>
 
 
 ## Cosine Similarity:<Br>
-
-- Contiene la aplicacion, 1ro de un Cosine Similarity, cuyo objetivo es: encontrar 10 negocios similares ya establecidos, a partir del estudio de las caracteristicas de  un negocio / establecimiento, seleccionado como semilla y perteneciente al set de datos (por ser esta una version M.V.P) donde se toman más de 200 parámetros a setear en caracteristicas. <Br>
+Contiene la aplicacion, 1ro de un Cosine Similarity, cuyo objetivo es: encontrar 10 negocios similares ya establecidos, a partir del estudio de las caracteristicas de  un negocio / establecimiento, seleccionado como semilla y perteneciente al set de datos (por ser esta una version M.V.P) donde se toman más de 200 parámetros a setear en caracteristicas. <Br>
 <Br>
 
 Es decir, ¿A donde apuntamos con esto?..<Br>
@@ -30,7 +29,7 @@ De esta manera, Podriamos: SIN tener la necesidad de invertir realmente en empla
 
 ## Regresion Ridge:<Br>
 
-- Tambien, por ser version M.V.P. contamos con un modelo Ridge a partir de una semilla establecida perteneciente al set de datos para su prueba. El Objetivo de la regresion aqui planteada es: en base a los parametros de la semilla, calcular la respuesta a una metrica muy importante establecida para el desarrollo de este proyecto... EL VOLÚMEN DE ESTRELLAS ✨.<Br>
+Tambien, por ser version M.V.P. contamos con un modelo Ridge a partir de una semilla establecida perteneciente al set de datos para su prueba. El Objetivo de la regresion aqui planteada es: en base a los parametros de la semilla, calcular la respuesta a una metrica muy importante establecida para el desarrollo de este proyecto... EL VOLÚMEN DE ESTRELLAS ✨.<Br>
 
 Ridge, en base a los parametros, podra pronosticar el volumen de estrellas que recaudará nuestra idea de negocio (aún no emplazada en la realidaad) y poder tener asi, una muy buena idea de como nos va a ir con dicha inversion si realmente la llevamos a cabo....<Br>
 
